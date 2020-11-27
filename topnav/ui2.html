@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ui2</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+
+        html, body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header {
+            background-color: rgb(12, 241, 241);
+            padding: 20px;
+        }
+
+        header h1 {
+            color: white;
+            margin: 0px;
+        }
+
+        /* display: block 인 태그를 width의 크기를 지정하고 margin 값 중 left, right를 auto로 주면 중앙 정렬됨 */
+        section {
+            width: 960px;
+            margin: 0 auto; /* 공식 */
+        }
+
+        article{
+            margin: 10px;
+        }
+
+        /* 이미지를 넣기워한 공간 */
+        .box-img{
+            float: left;
+            width: 33%;
+        }
+
+        /* 부모 태그의 크기만큼 이미지의 크기를 설정라기 위함 */
+        .box-img img { width: 100%; }
+
+        /* 텍스트를 입력하기 위한 공간 */
+        .box-text {
+            float: left;
+            width: 67%;
+            padding: 10px;
+        }
+        article{
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>제목 부분</h1>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <div class="box-img">
+                    <img src="./images/img_5terre.jpg" alt="">
+                </div>
+                <div class="box-text">
+                    <h2>5 Terre</h2>
+                    <p>이렇게 하고 보니, 한국어에서 일반적으로 보기 힘든 음절들이 자주 등장했다는 사실을 알게 됩니다. 보통 한국어에서는 ‘이’가 ‘앙’보다는, 특히 ‘꿻’이나 ‘굷’ 같은 음절보다 훨씬 빈번하게 등장하죠.</p>
+                </div>
+            </article>
+            <article>
+                <div class="box-img">
+                    <img src="./images/img_monterosso.jpg" alt="">
+                </div>
+                <div class="box-text">
+                    <h2>Monterosso</h2>
+                    <p>이렇게 하고 보니, 한국어에서 일반적으로 보기 힘든 음절들이 자주 등장했다는 사실을 알게 됩니다. 보통 한국어에서는 ‘이’가 ‘앙’보다는, 특히 ‘꿻’이나 ‘굷’ 같은 음절보다 훨씬 빈번하게 등장하죠.</p>
+                </div>
+            </article>
+            <article>
+                <div class="box-img">
+                    <img src="./images/img_vernazza.jpg" alt="">
+                </div>
+                <div class="box-text">
+                    <h2>Vernazza</h2>
+                    <p>이렇게 하고 보니, 한국어에서 일반적으로 보기 힘든 음절들이 자주 등장했다는 사실을 알게 됩니다. 보통 한국어에서는 ‘이’가 ‘앙’보다는, 특히 ‘꿻’이나 ‘굷’ 같은 음절보다 훨씬 빈번하게 등장하죠.</p>
+                </div>
+            </article>
+            <article>
+                <div class="box-img">
+                    <img src="./images/img_manarola.jpg" alt="">
+                </div>
+                <div class="box-text">
+                    <h2>Manarola</h2>
+                    <p>이렇게 하고 보니, 한국어에서 일반적으로 보기 힘든 음절들이 자주 등장했다는 사실을 알게 됩니다. 보통 한국어에서는 ‘이’가 ‘앙’보다는, 특히 ‘꿻’이나 ‘굷’ 같은 음절보다 훨씬 빈번하게 등장하죠.</p>
+                </div>
+            </article>
+            <article>
+                <div class="box-img">
+                    <img src="./images/img_corniglia.jpg" alt="">
+                </div>
+                <div class="box-text">
+                    <h2>Corniglia</h2>
+                    <p>이렇게 하고 보니, 한국어에서 일반적으로 보기 힘든 음절들이 자주 등장했다는 사실을 알게 됩니다. 보통 한국어에서는 ‘이’가 ‘앙’보다는, 특히 ‘꿻’이나 ‘굷’ 같은 음절보다 훨씬 빈번하게 등장하죠.</p>
+                </div>
+            </article>
+            <article>
+                <div class="box-img">
+                    <img src="./images/img_riomaggiore.jpg" alt="">
+                </div>
+                <div class="box-text">
+                    <h2>Riomaggiore</h2>
+                    <p>이렇게 하고 보니, 한국어에서 일반적으로 보기 힘든 음절들이 자주 등장했다는 사실을 알게 됩니다. 보통 한국어에서는 ‘이’가 ‘앙’보다는, 특히 ‘꿻’이나 ‘굷’ 같은 음절보다 훨씬 빈번하게 등장하죠.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+</body>
+</html>
